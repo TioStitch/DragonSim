@@ -1,0 +1,29 @@
+settings:
+  altar-eye-put: "ENDERMAN_TELEPORT" #Sound - Effect Add Eye
+  altar-eye-remove: "ENDERMAN_HIT" #Sound - Effect Remove Eye
+
+  altar-glass-enabled: true #Enable the up glass!
+  altar-glass-color: 10 #ID of STAINED_GLASS.
+
+  #%player% - The player.
+  #%eyes% - The eyes in altar.
+  altar-put-message: "§d>> §a%player% placed a §5Summoning Eye §ain altar! §f(§a%eyes%§f/§a8§)"
+  altar-remove-message: "§d>> §a%player% has removed a §5Summoning Eye §aof altar! §f(§a%eyes%§f/§a8§)"
+
+items:
+  summoning-eyer:
+    displayName: "§5Summoning Eye"
+    lore:
+      - "§7Use this at the §5Ender Altar"
+      - "§7to summon Ender Dragons!"
+      - " "
+      - "§5§lEPIC"
+
+dragon-settings:
+  superior-name: "§cSuperior Dragon"
+  strong-name: "§cStrong Dragon"
+  unstable-name: "§cUnstable Dragon"
+  protector-name: "§cProtector Dragon"
+  old-name: "§cOld Dragon"
+  young-name: "§cYoung Dragon"
+  wise-name: "§cWise Dragon"
