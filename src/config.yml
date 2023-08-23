@@ -1,0 +1,60 @@
+settings:
+  altar-eye-put: "ENDERMAN_TELEPORT" #Sound - Effect Add Eye
+  altar-eye-remove: "ENDERMAN_HIT" #Sound - Effect Remove Eye
+
+  altar-glass-height: 30
+  altar-glass-height-start: 1
+  altar-glass-enabled: true #Enable the up glass!
+  altar-glass-color: 10 #ID of STAINED_GLASS.
+  glass-loc-x: 0
+  glass-loc-y: 0
+  glass-loc-z: 0
+
+  #%player% - The player.
+  #%eyes% - The eyes in altar.
+  altar-max-eye: 8
+  altar-put-message: "§d>> §a%player% §aplaced a §5Summoning Eye §ain altar! §f(§a%eyes%§f/§a8§f)"
+  altar-remove-message: "§d>> §a%player% §ahas removed a §5Summoning Eye §aof altar! §f(§a%eyes%§f/§a8§f)"
+
+items:
+  summoning-eyer:
+    displayName: "§5Summoning Eye"
+    lore:
+      - "§7Use this at the §5Ender Altar"
+      - "§7to summon Ender Dragons!"
+      - " "
+      - "§5§lEPIC"
+
+#Cooldown in seconds, don't need s.
+#Intervalo em segundos, sem usar s.
+armor-abilities:
+  unstable-cooldown: 15
+  unstable-checkName: "Unstable"
+
+#Avaliable types: UNSTABLE, SUPERIOR, STRONG, PROTECTOR, YOUNG, OLD, WISE.
+#Tipos disponíveis: Os mesmos acima.
+dragon-boost:
+  lightning: [SUPERIOR, UNSTABLE]
+  fireball: [YOUNG, WISE]
+
+dragon-settings:
+  superior-name: "§cSuperior Dragon"
+  superior-health: 10.000
+
+  strong-name: "§cStrong Dragon"
+  strong-health: 10.000
+
+  unstable-name: "§cUnstable Dragon"
+  unstable-health: 10.000
+
+  protector-name: "§cProtector Dragon"
+  protector-health: 10.000
+
+  old-name: "§cOld Dragon"
+  old-health: 10.000
+
+  young-name: "§cYoung Dragon"
+  young-health: 10.000
+
+  wise-name: "§cWise Dragon"
+  wise-health: 10.000

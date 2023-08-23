@@ -1,0 +1,10 @@
+name: DragonSim
+version: 2.0
+author: [Ancash, TioStitch]
+main: de.tiostitch.dragsim.DragonSimulator
+depend: [ProtocolLib]
+commands:
+   setaltar:
+      description: Set the altar
+   se:
+      description: Gives you Summoning Eye
